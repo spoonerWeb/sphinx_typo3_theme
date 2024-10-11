@@ -52,6 +52,12 @@
     margin-right: -($grid-gutter-width / 2);
     padding: ($grid-gutter-width / 2);
     border-bottom: 1px solid rgba(0, 0, 0, .15);
+
+    nav {
+        position: sticky;
+        top: 2rem;
+    }
+
     @include media-breakpoint-up(lg) {
         padding: ($spacer * 2) 0;
         flex-shrink: 0;
